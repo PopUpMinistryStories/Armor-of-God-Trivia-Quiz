@@ -1,35 +1,61 @@
 <!DOCTYPE html>
-<html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <title>Untitled</title>
-  <link rel="stylesheet" href="./style.css">
-
-</head>
-<body>
-<!-- partial:index.partial.html -->
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Armor of God Quiz Game</title>
-  <link rel="stylesheet" href="styles.css">
+  <title>Trivia Game Instructions</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .instructions-container {
+      background-color: #fff;
+      padding: 30px;
+      text-align: center;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      max-width: 600px;
+      width: 90%;
+    }
+
+    .instructions-container h1 {
+      font-size: 36px;
+      color: #4CAF50;
+      margin-bottom: 20px;
+    }
+
+    .instructions-container p {
+      font-size: 20px;
+      color: #333;
+      font-style: italic;
+      margin-bottom: 30px;
+    }
+
+    .loading {
+      font-size: 18px;
+      color: #888;
+    }
+  </style>
+  <script>
+    // Redirect to the game after 11 seconds (previously 5 seconds, now extended by 6 seconds)
+    setTimeout(function() {
+      window.location.href = "game.html"; // Replace with your actual game URL
+    }, 11000); // 11000 ms = 11 seconds
+  </script>
 </head>
 <body>
-  <div id="quiz-container">
-    <h1>Armor of God Quiz</h1>
-    <p id="question"></p>
-    <ul id="choices"></ul>
-    <button id="next-button" onclick="nextQuestion()" disabled>Next Question</button>
-    <p id="feedback"></p>
+  <div class="instructions-container">
+    <h1>Trivia Questions from Pop Up Ministry Stories</h1>
+    <p>Don’t forget to wear the full Armor of God every day to stand firm and confident in your faith! Enjoy—this is all for fun!</p>
+    <div class="loading">The game will start shortly...</div>
   </div>
-
-  <script src="script.js"></script>
-</body>
-</html>
-<!-- partial -->
-  <script  src="./script.js"></script>
-
 </body>
 </html>

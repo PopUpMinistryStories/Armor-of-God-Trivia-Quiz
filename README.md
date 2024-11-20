@@ -1,3 +1,4 @@
-                                  # Trivia Questions from Pop Up Ministry Stories
+# Untitled
 
-Don’t forget to wear the full Armor of God every day to stand firm and confident in your faith! Enjoy—this is all for fun!
+A Pen created on CodePen.io. Original URL: [https://codepen.io/Nnaji-Eni/pen/mdNYZZv](https://codepen.io/Nnaji-Eni/pen/mdNYZZv).
+
